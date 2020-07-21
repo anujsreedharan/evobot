@@ -12,7 +12,7 @@ module.exports = {
       .setTitle("Now playing")
       .setDescription(`${song.title}\n${song.url}`)
       .setColor("#F8AA2A")
-      .setAuthor("EvoBot")
+      .setAuthor("Yukki Asuna")
       .setTimestamp();
 
     if (song.duration > 0) nowPlaying.setFooter(new Date(song.duration * 1000).toISOString().substr(11, 8));
